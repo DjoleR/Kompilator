@@ -1,0 +1,9 @@
+pocetak 
+ispisi("Vrednost izraza je "); 
+ispisi(3+0xA mod 5);
+ispisi(1 > 2); ispisi("\n");
+ispisi( 4 >= 6); ispisi("\n");
+ispisi(4 <= 4); ispisi("\n");
+ispisi(4 != 4);ispisi("\n");
+ispisi(4 == 4); ispisi("\n")
+kraj.

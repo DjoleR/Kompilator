@@ -1,0 +1,14 @@
+pocetak
+
+ispisi("Unesi broj: ");
+unesi(i);
+
+ponavljaj : 
+	pocetak
+		ispisi("ponavljam ko pravi\n");
+		i = i-1
+	kraj
+dok_je i > 10
+
+kraj.
+

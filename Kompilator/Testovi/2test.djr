@@ -1,0 +1,36 @@
+funkcija Fff(a)
+pocetak
+   ako_je a == 3 onda:
+     pocetak
+       vrati 3
+     kraj;
+
+   ako_je a == 2 onda:
+       vrati 2;
+
+   vrati 4
+kraj;
+
+pocetak 
+i=3 * ( 4 +2 ); 
+
+ako_je (i < 10) onda : 
+ispisi(i)
+inace : 
+ispisi(" i > 10\n");
+
+dok_je i > 10 radi_sledece:
+       i = i-1;
+
+ispisi(i); ispisi("\n");
+
+ako_je (i == 10) onda :
+       pocetak
+	 i = i + 10;
+	 ispisi(i); ispisi("\n")
+       kraj;
+
+
+ispisi(Fff(3))
+
+kraj.

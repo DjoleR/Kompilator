@@ -1,0 +1,27 @@
+funkcija Faktorijel(n)
+pocetak
+  ako_je n == 1 onda:
+     vrati 1;
+  vrati n * Faktorijel(n-1)
+kraj;
+
+funkcija Fibonaci(n)
+pocetak
+  ako_je n == 1 onda:
+     vrati 1;
+
+  ako_je n == 2 onda:
+     vrati 1;
+
+  vrati Fibonaci(n-1) + Fibonaci(n-2)
+
+kraj;
+
+
+pocetak
+   a = 7;
+   ispisi(Faktorijel(a));
+   ispisi("\n");
+
+   ispisi(Fibonaci(5)); ispisi("\n")
+kraj.
