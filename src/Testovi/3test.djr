@@ -1,0 +1,16 @@
+pocetak 
+ispisi("Unesi broj: "); 
+unesi(i); 
+dok_je i<10 radi_sledece: 
+pocetak 
+ispisi(i); ispisi("\n");
+i=i + 1 
+kraj;
+
+i = i+10;
+
+ponavljaj : pocetak
+ispisi("ponavljam ko pravi\n");
+i = i-1
+kraj dok_je i > 10
+kraj.

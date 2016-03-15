@@ -1,0 +1,18 @@
+funkcija Zbir(a,b)
+pocetak
+  vrati a + b
+kraj;
+
+funkcija Puta(a,b)
+pocetak
+  vrati a * b
+kraj;
+
+funkcija Komb(a,b)
+pocetak
+  vrati Zbir(a,b) - Puta(a,b)
+kraj;
+
+pocetak
+  ispisi(Komb(2,3)); ispisi("\n")
+kraj.

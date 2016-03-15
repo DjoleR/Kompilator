@@ -1,0 +1,13 @@
+funkcija Fja(a)
+pocetak
+   ispisi("Unesi t = ");
+   unesi(t);
+   ispisi("a + t = "); ispisi(a + t); ispisi("\n")
+kraj;
+
+
+pocetak
+     a = 3;
+     ispisi("a = 3\n");
+     Fja(a)
+kraj.

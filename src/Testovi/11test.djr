@@ -1,0 +1,22 @@
+funkcija Fibonaci(n)
+pocetak
+  ako_je n == 1 onda:
+     vrati 1;
+
+  ako_je n == 2 onda:
+     vrati 1;
+
+  vrati Fibonaci(n-1) + Fibonaci(n-2)
+
+kraj;
+
+pocetak
+   i = 1;
+   dok_je i <= 8 radi_sledece:
+     pocetak
+       ispisi("Fib("); ispisi(i); ispisi(") ");
+       ispisi(Fibonaci(i));
+       ispisi("\n");
+       i = i + 1
+     kraj
+kraj.
